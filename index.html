@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADING -->
+    <div id="loading">
+        <div class="loading-heart">❤️</div>
+        <p>Menyiapkan sesuatu untukmu...</p>
+    </div>
+
+    <!-- HEART BACKGROUND -->
+    <div id="heart-container"></div>
+
+    <!-- OPENING -->
+    <section class="opening" id="opening">
+
+        <div class="opening-content">
+
+            <div class="small-heart">♡</div>
+
+            <p class="opening-small">
+                Ada sesuatu yang ingin aku kasih ke kamu...
+            </p>
+
+            <h1>
+                Untuk <span>kamu</span> ❤️
+            </h1>
+
+            <p class="opening-text">
+                Sebuah tempat kecil yang berisi sedikit cerita,
+                kenangan, dan perasaan yang mungkin belum pernah
+                aku sampaikan semuanya.
+            </p>
+
+            <button class="open-button" onclick="openWebsite()">
+                💌 Buka Hadiah
+            </button>
+
+            <p class="hint">
+                klik pelan-pelan ya...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN WEBSITE -->
+    <main id="main-content" class="hidden">
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+
+            <div class="logo">
+                Our <span>Story</span> ❤️
+            </div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#memories">Memories</a>
+                <a href="#about">About</a>
+                <a href="#story">Story</a>
+                <a href="#letter">Letter</a>
+            </div>
+
+        </nav>
+
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">
+                    To my favorite person
+                </p>
+
+                <h1>
+                    You are my<br>
+                    <span>favorite story.</span>
+                </h1>
+
+                <p>
+                    Dari sekian banyak orang yang bisa aku temui,
+                    aku bersyukur semesta mempertemukan aku dengan kamu.
+                </p>
+
+                <a href="#memories" class="hero-button">
+                    Lihat cerita kita ↓
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTRO -->
+        <section class="intro section">
+
+            <div class="section-label">
+                ✦ A LITTLE NOTE ✦
+            </div>
+
+            <h2>
+                Tentang <span>kita</span>
+            </h2>
+
+            <p class="intro-text">
+                Mungkin hubungan kita tidak selalu sempurna.
+                Ada hari dimana kita tertawa sampai lupa waktu,
+                ada juga hari dimana kita saling diem.
+                Tapi dari semua itu, aku tetap bersyukur karena
+                bisa melewati semuanya bersama kamu.
+            </p>
+
+            <div class="heart-divider">
+                ♡ ───── ❤️ ───── ♡
+            </div>
+
+        </section>
+
+
+        <!-- MEMORIES -->
+        <section class="memories section" id="memories">
+
+            <div class="section-label">
+                ✦ OUR MEMORIES ✦
+            </div>
+
+            <h2>
+                Beberapa foto cantik<br>
+                dari <span>kamu</span>
+            </h2>
+
+            <p class="section-description">
+                Beberapa foto mungkin terlihat sederhana,
+                tapi justru hal-hal kecil seperti ini yang
+                selalu ingin aku ingat, walaupun engga banyak.
+            </p>
+
+
+            <div class="gallery">
+
+                <div class="photo-card photo-large">
+                    <img src="images/8.jpg" alt="Memory 1">
+                    <div class="photo-caption">
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/9.jpg" alt="Memory 2">
+                    <div class="photo-caption">
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/3.jpg" alt="Memory 3">
+                    <div class="photo-caption">
+                    </div>
+                </div>
+
+                <div class="photo-card photo-wide">
+                    <img src="images/4.jpg" alt="Memory 4">
+                    <div class="photo-caption">
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/5.jpg" alt="Memory 5">
+                    <div class="photo-caption">
+                    </div>
+                </div>
+
+                <div class="photo-card">
+                    <img src="images/7.jpg" alt="Memory 6">
+                    <div class="photo-caption">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT HER -->
+        <section class="about section" id="about">
+
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="images/image.png" alt="About You">
+                </div>
+                <div class="floating-note">
+                    ♡
+                </div>
+            </div>
+
+            <div class="about-content">
+
+                <div class="section-label">
+                    ✦ ABOUT YOU ✦
+                </div>
+
+                <h2>
+                    Kalau ditanya,<br>
+                    kenapa <span>kamu?</span>
+                </h2>
+
+                <p>
+                    Aku juga sebenarnya nggak tahu harus mulai
+                    ngejelasin dari mana.
+                </p>
+
+                <p>
+                    Mungkin karena cara kamu tersenyum.
+                    Cara kamu cerita tentang hal-hal kecil.
+                    Cara kamu membuat hari biasa terasa sedikit
+                    lebih menyenangkan.
+                </p>
+
+                <p>
+                    Atau mungkin karena saat bersama kamu,
+                    aku merasa menjadi diriku sendiri.
+                </p>
+
+                <p class="handwriting">
+                    Dan entah kenapa...
+                    aku selalu ingin memilih kamu lagi.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- TIMELINE -->
+        <section class="story section" id="story">
+
+            <div class="section-label">
+                ✦ OUR STORY ✦
+            </div>
+
+            <h2>
+                Perjalanan kecil<br>
+                <span>kita</span>
+            </h2>
+
+            <p class="section-description">
+                Semua cerita besar selalu dimulai dari sesuatu
+                yang sederhana.
+            </p>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        ❤️
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Pertama Kali Bertemu
+                        </h3>
+
+                        <span class="timeline-date">
+                            Somewhere, someday
+                        </span>
+
+                        <p>
+                            Hari dimana dua orang yang sebelumnya
+                            tidak saling tahu akhirnya dipertemukan.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        💬
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Mulai Sering Ngobrol
+                        </h3>
+
+                        <span class="timeline-date">
+                            The beginning
+                        </span>
+
+                        <p>
+                            Dari obrolan sederhana, bercanda,
+                            sampai akhirnya mulai terbiasa
+                            mencari satu sama lain.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        💕
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Kita Menjadi Kita
+                        </h3>
+
+                        <span class="timeline-date">
+                            A special day
+                        </span>
+
+                        <p>
+                            Hari dimana hubungan ini menjadi
+                            sesuatu yang lebih dari sekadar
+                            pertemanan.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        📸
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Banyak Kenangan
+                        </h3>
+
+                        <span class="timeline-date">
+                            Until now
+                        </span>
+
+                        <p>
+                            Foto, ketawa, jalan-jalan, cerita,
+                            masalah, dan banyak hal kecil
+                            yang akhirnya menjadi kenangan.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        ♾️
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-number">
+                            05
+                        </span>
+
+                        <h3>
+                            To Be Continued...
+                        </h3>
+
+                        <span class="timeline-date">
+                            Our future
+                        </span>
+
+                        <p>
+                            Karena aku masih ingin menulis
+                            banyak cerita lagi bersama kamu.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- REASONS -->
+        <section class="reasons section">
+
+            <div class="section-label">
+                ✦ LITTLE THINGS ✦
+            </div>
+
+            <h2>
+                Hal-hal kecil yang<br>
+                bikin aku <span>sayang kamu</span>
+            </h2>
+
+
+            <div class="reason-grid">
+
+                <div class="reason-card">
+                    <div>🌷</div>
+                    <h3>Senyummu</h3>
+                    <p>
+                        Sesederhana itu, tapi selalu berhasil
+                        bikin hariku lebih baik.
+                    </p>
+                </div>
+
+                <div class="reason-card">
+                    <div>☁️</div>
+                    <h3>Cara Kamu Bercerita</h3>
+                    <p>
+                        Bahkan cerita yang sederhana pun
+                        terasa menarik kalau kamu yang cerita.
+                    </p>
+                </div>
+
+                <div class="reason-card">
+                    <div>🫶</div>
+                    <h3>Perhatianmu</h3>
+                    <p>
+                        Hal-hal kecil yang mungkin kamu anggap
+                        biasa ternyata berarti buat aku.
+                    </p>
+                </div>
+
+                <div class="reason-card">
+                    <div>🌙</div>
+                    <h3>Kamu yang Apa Adanya</h3>
+                    <p>
+                        Aku suka kamu bukan karena kamu sempurna,
+                        tapi karena kamu adalah kamu.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LETTER -->
+        <section class="letter section" id="letter">
+
+            <div class="section-label">
+                ✦ A LETTER FOR YOU ✦
+            </div>
+
+            <h2>
+                Ada sesuatu<br>
+                yang ingin aku <span>katakan</span>
+            </h2>
+
+
+            <div class="envelope-wrapper">
+
+                <div class="envelope" id="envelope">
+
+                    <div class="envelope-back"></div>
+
+                    <div class="letter-paper">
+
+                        <h3>
+                            Untuk kamu ❤️
+                        </h3>
+
+                        <p>
+                            Hai kamu...
+                        </p>
+
+                        <p>
+                            Aku mungkin bukan orang yang selalu
+                            pandai mengungkapkan perasaan.
+                            Kadang aku lebih memilih diem daripada
+                            mengatakan apa yang sebenarnya aku rasakan.
+                        </p>
+
+                        <p>
+                            Tapi ada satu hal yang ingin aku pastiin
+                            kamu tau.
+                        </p>
+
+                        <p>
+                            Aku bersyukur bisa mengenal kamu.
+                            Bersyukur pernah ketawa bersama kamu,
+                            menghabiskan waktu bersama kamu,
+                            dan punya begitu banyak cerita
+                            yang sekarang menjadi bagian dari hidupku.
+                        </p>
+
+                        <p>
+                            Terima kasih karena sudah menjadi bagian
+                            dari perjalanan ini.
+                        </p>
+
+                        <p>
+                            Semoga kita masih punya banyak cerita
+                            yang belum ditulis.
+                        </p>
+
+                        <p class="letter-love">
+                            I love you. ❤️
+                        </p>
+
+                        <p class="signature">
+                            — someone who loves you
+                        </p>
+
+                    </div>
+
+                    <div class="envelope-flap"></div>
+
+                </div>
+
+            </div>
+
+            <button class="letter-button" onclick="openLetter()">
+                💌 Buka Surat
+            </button>
+
+        </section>
+
+
+        <!-- COUNTING -->
+        <section class="counter-section">
+
+            <div class="counter-overlay"></div>
+
+            <div class="counter-content">
+
+                <div class="section-label">
+                    ✦ TIME WITH YOU ✦
+                </div>
+
+                <h2>
+                    And I hope...
+                </h2>
+
+                <p>
+                    waktu yang kita punya akan terus bertambah.
+                </p>
+
+                <div class="counter">
+
+                    <div class="counter-box">
+                        <strong id="days">0</strong>
+                        <span>Days</span>
+                    </div>
+
+                    <div class="counter-box">
+                        <strong id="hours">0</strong>
+                        <span>Hours</span>
+                    </div>
+
+                    <div class="counter-box">
+                        <strong id="minutes">0</strong>
+                        <span>Minutes</span>
+                    </div>
+
+                    <div class="counter-box">
+                        <strong id="seconds">0</strong>
+                        <span>Seconds</span>
+                    </div>
+
+                </div>
+
+                <p class="counter-note">
+                    Since our special day ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL SURPRISE -->
+        <section class="surprise" id="surprise">
+
+            <div class="surprise-content">
+
+                <div class="surprise-heart">
+                    ❤️
+                </div>
+
+                <p class="section-label">
+                    ✦ ONE LAST THING ✦
+                </p>
+
+                <h2>
+                    Sebelum kamu pergi...
+                </h2>
+
+                <p>
+                    masih ada satu hal terakhir.
+                </p>
+
+                <button class="surprise-button" onclick="showSurprise()">
+                    🎁 Buka Surprise
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SURPRISE MODAL -->
+        <div class="surprise-modal" id="surpriseModal">
+
+            <div class="surprise-box">
+
+                <button class="close-modal" onclick="closeSurprise()">
+                    ×
+                </button>
+
+                <div class="big-heart">
+                    ❤️
+                </div>
+
+                <p class="modal-small">
+                    FOR YOU
+                </p>
+
+                <h2>
+                    Kalau suatu hari<br>
+                    kamu bertanya...
+                </h2>
+
+                <p class="modal-message">
+                    "Apa aku masih sayang kamu?"
+                </p>
+
+                <div class="answer">
+                    Jawabannya akan selalu...
+                </div>
+
+                <div class="big-answer">
+                    IYA. ❤️
+                </div>
+
+                <p class="final-text">
+                    Terima kasih sudah hadir di hidup aku.
+                    Terima kasih sudah menjadi bagian dari
+                    cerita ini.
+                </p>
+
+                <p class="forever">
+                    Let's make more memories together. ✨
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <div class="footer-heart">
+                ❤️
+            </div>
+
+            <h3>
+                Made with love, just for you.
+            </h3>
+
+            <p>
+                Our little story is still being written...
+            </p>
+
+            <div class="footer-line"></div>
+
+            <small>
+                © 2026 — Forever & Always
+            </small>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
